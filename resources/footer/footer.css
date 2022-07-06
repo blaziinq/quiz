@@ -1,0 +1,11 @@
+.footer-socials {
+  width: 100px;
+  transition-duration: 100ms;
+}
+.footer-socials:hover {
+  transform: scale(1.1);
+}
+
+.footer-text {
+  color: white !important;
+}

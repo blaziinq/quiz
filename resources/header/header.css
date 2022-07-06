@@ -1,0 +1,61 @@
+#big-header-text {
+  text-align: center;
+  font-family: 'Staatliches', cursive;
+  transition-duration: 100ms;
+  color: white;
+  font-size: 50px;
+}
+#big-header-text:hover {
+  transform: scale(1.1);
+  transition-duration: 200ms;
+}
+
+/* #nav-logo {
+  float: left;
+  width: 250px;
+  margin: 10px;
+  transition-duration: 100ms;
+}
+#nav-logo:hover {
+  transform: scale(0.95);
+}
+
+#navbar {
+  height: 80px;
+  display: flex;
+  float: right;
+}
+.navbar-item {
+  display: inline-block;
+  align-self: center;
+}
+.navbar-link {
+  font-family: 'Staatliches', cursive;
+  font-size: 40px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  transition-duration: 500ms;
+}
+.navbar-link:hover {
+  color: #ff0000;
+}
+
+@media screen and (max-width: 485px){
+  #nav-logo-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+  }
+  #navbar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+*/

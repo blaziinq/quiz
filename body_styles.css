@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+header, footer { /*Can separate these if different colour is wanted.*/
+  overflow: hidden;
+  background-color: rgb(25, 25, 25);
+}
+footer {
+  box-shadow: 0 50vh 0 50vh rgb(25, 25, 25);
+}

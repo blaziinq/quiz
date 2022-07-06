@@ -1,0 +1,141 @@
+<!--
+  Tutorial for using this at https://www.youtube.com/watch?v=cErgMJSgpv0&t=28s, but I think
+  it's self-explanatory.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Legitamate quiz!</title>
+
+    <!---------------->
+    <!--Dependencies-->
+    <!---------------->
+    <!--Javascript is at the bottom of the page.-->
+
+    <!--Fonts-->
+    <!--Use google fonts to find the actual fonts you want to use.
+    
+    For this example, use these:
+      font-family: 'Poppins', sans-serif;
+      font-family: 'Staatliches', cursive;
+
+      https://fonts.google.com/share?selection.family=Poppins:wght@400;700%7CStaatliches
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Favicon-->
+    <!--Make a favicon at https://favicon.io/favicon-converter/ and put the files in resources/favicon-->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/resources/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/resources/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/resources/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/resources/favicon/site.webmanifest" />
+
+    <!--CSS-->
+    <link rel="stylesheet" href="body_styles.css" />
+    <link rel="stylesheet" href="main_styles.css" />
+    <link rel="stylesheet" href="resources/header/header.css" />
+    <link rel="stylesheet" href="resources/footer/footer.css" />
+
+    <!--Misc-->
+  </head>
+  <body>
+    <header id="header">
+      <h1 id="big-header-text">Quick Quiz!</h1>
+    </header>
+    <main>
+      <h1 class="title">Welcome!</h1>
+      <p class="text">
+        This website generates 10 random True/False questions for you, then once
+        you have answered them, tells you the best pet you could have!
+      </p>
+
+      <div class="center-contents">
+        <div id="questions">
+          <h2 class="title" id="first">
+            Press the button below if you want to know what pet you should get.
+          </h2>
+          <h3 class="title" id="question"></h3>
+          <div class="center-contents" id="buttons">
+            <button
+              class="submit-button"
+              id="true"
+              onclick="reset(); return false"
+            >
+              Start the Quiz!
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer id="footer">
+      <hr />
+      <p class="text footer-text">
+        Do you want to take quizzes, well, if you're on here, probably. If you
+        hadn't occured to you to do it, to start taking a quiz, you need to
+        click on the big 'Generate Quiz' button.
+        <br />
+        Anyways, my socials are below.
+      </p>
+      <div class="center-contents">
+        <a
+          href="http://twitter.com/blaziinqMC"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="resources/footer/twitter.svg"
+            alt="Twitter Logo"
+            class="footer-socials"
+            style="width: 65px"
+          />
+        </a>
+        <a
+          href="https://www.youtube.com/channel/UCW3HXaz5-JIYztVTASZ348A"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="resources/footer/youtube.svg"
+            alt="Youtube Logo"
+            class="footer-socials"
+          />
+        </a>
+        <a
+          href="https://discord.gg/caxmhjKMga"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="resources/footer/discord.svg"
+            alt="Discord Logo"
+            class="footer-socials"
+          />
+        </a>
+      </div>
+    </footer>
+  </body>
+  <script src="javascript/operate_quiz.js" type="text/javascript"></script>
+</html>
